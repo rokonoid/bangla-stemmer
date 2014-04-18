@@ -5,9 +5,13 @@ package com.codexplo;
  */
 public class MainApp {
     public static void main(String[] args) {
-        //lets say 100 times 
+        //lets say 100 times
         for (int i = 0; i < 100; i++) {
             System.out.println("Hello world");
+        }
+
+        for (int i = 0; i < 100; i++) {
+            System.out.println("ওহে বিশ্ব");
         }
     }
 }
