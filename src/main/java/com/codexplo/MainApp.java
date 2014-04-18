@@ -5,17 +5,16 @@ package com.codexplo;
  */
 public class MainApp {
     public static void main(String[] args) {
-        //lets say 100 times
         for (int i = 0; i < 100; i++) {
-            System.out.println("Hello world");
+            System.out.println(LanguageFactory.get("English"));
         }
 
         for (int i = 0; i < 100; i++) {
-            System.out.println("ওহে বিশ্ব");
+            System.out.println(LanguageFactory.get("Bangla"));
         }
         
         for (int i = 0; i < 100; i++) {
-            System.out.println("你好世界");
+            System.out.println(LanguageFactory.get("Chaines"));
         }
     }
 }
