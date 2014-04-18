@@ -13,5 +13,9 @@ public class MainApp {
         for (int i = 0; i < 100; i++) {
             System.out.println("ওহে বিশ্ব");
         }
+        
+        for (int i = 0; i < 100; i++) {
+            System.out.println("你好世界");
+        }
     }
 }
